@@ -4,15 +4,15 @@
 # all packages are installed in $SPATH/intel-software
 #####################################################
 
-export CC=mpicc
-export CXX=mpic++
-export FC=mpifort
-export F90=mpifort
-export F77=mpifort
-export MPIF90=mpifort
-export MPIF77=mpifort
-export MPICC=mpicc
-export MPICXX=mpic++
+export CC=mpiicc
+export CXX=mpiicpc
+export FC=mpiifort
+export F90=mpiifort
+export F77=mpiifort
+export MPIF90=mpiifort
+export MPIF77=mpiifort
+export MPICC=mpiicc
+export MPICXX=mpiicpc
 
 SPATH=/home/mppadmin/software #software path, the tar.gz file should be decompressed there
 cd $SPATH
